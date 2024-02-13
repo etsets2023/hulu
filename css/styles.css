@@ -755,12 +755,18 @@ footer ul li a{
         font-size: 0.75rem;
     }
 
+    .hero__footer h6{
+        font-size: 1rem;
+        text-align: center;
+    }
+
     .cards__text h2{
         font-size: 2rem; 
     }
 
     .cards p{
         font-size: 12px;
+        text-align: center;
     }
 
     .cards__text2__button{
@@ -808,6 +814,7 @@ footer ul li a{
 
    footer{
     font-size: 12px;
+    flex-flow: column;
    }
 
    .pos__footer{
