@@ -812,6 +812,9 @@ footer ul li a{
 
    .pos__footer{
     width: 80%;
-  
-}
+   }
+
+   .pos__footer ul{
+    display: none;
+   }
 }
