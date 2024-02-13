@@ -229,8 +229,7 @@ header span{
 
 .cards__text h6{
     color: var(--green-color);
-    font-size: 1rem;  
-    
+    font-size: 1rem;    
 }
 
 .cards__text h2{
@@ -349,7 +348,6 @@ header span{
     margin-top: 6%;
     text-decoration: none;
     margin: 4%;
-
 }
 
 .cards__text2__button:hover{
@@ -394,8 +392,7 @@ header span{
    text-decoration: none;
    color: white;
    font-size: 1rem;
-   font-weight: 600;
-   
+   font-weight: 600;  
 }
 
 .diversos__container h2{
@@ -553,7 +550,6 @@ header span{
     display: flex;
     padding-block: 2%;
     height: 80px;
-
 }
 
 .planos1{
@@ -739,4 +735,78 @@ footer ul li a{
         margin-top: 12%;
         color: white;
     }
+}
+
+@media (max-width: 690px){
+    .banner img{
+        width: 60%;
+    }
+
+    .banner h6{
+        color: var(--green-color);
+        font-size: 0.75rem;
+    }
+
+    .banner h2{
+        font-size: 1rem;    
+    }
+
+    .hero__banner button{
+        font-size: 0.75rem;
+    }
+
+    .cards__text h2{
+        font-size: 2rem; 
+    }
+
+    .cards p{
+        font-size: 12px;
+    }
+
+    .cards__text2__button{
+        font-size: 0.75rem;
+    }
+
+    .diversos__container ul li a{
+        font-size: 0.75rem;  
+     }
+     
+     .diversos__container h2{
+        font-size: 2.5rem;
+      }
+     
+      .diversos__container p{
+         font-size: 1rem;
+       }
+
+       .diversos__icone{
+        height: 50px;
+        width: 50px;
+      }
+
+
+      .planos h2{
+        font-size: 2rem;
+      }
+    
+      .planos p{
+        font-size: 1rem;
+      }
+
+      .popular-btn{
+        padding-inline: 20%;
+        font-size: 12px;
+      }
+    
+      .pacotes{
+        font-size: 14px;
+    }
+
+   .borderbottom div{
+    font-size: 12px;
+   }
+
+   footer{
+    font-size: 12px;
+   }
 }
