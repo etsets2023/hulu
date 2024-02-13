@@ -816,7 +816,10 @@ footer ul li a{
     font-size: 10px;
     gap: 5px;
     flex-flow: row wrap;
+   }
 
+   footer div{
+    width: 30%;
    }
 
    .pos__footer{
