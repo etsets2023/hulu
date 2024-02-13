@@ -548,6 +548,7 @@ header span{
     width: 100%;
     margin: auto;
     display: flex;
+    align-items: center;
     padding-block: 2%;
     height: 80px;
 }
@@ -798,6 +799,8 @@ footer ul li a{
       .planos p{
         font-size: 1rem;
       }
+
+     
 
       .popular-btn{
         padding-inline: 20%;
