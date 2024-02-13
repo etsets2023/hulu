@@ -809,4 +809,9 @@ footer ul li a{
    footer{
     font-size: 12px;
    }
+
+   .pos__footer{
+    width: 80%;
+  
+}
 }
