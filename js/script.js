@@ -21,6 +21,7 @@ sportsBtn.addEventListener('click', () => {
     icone2.setAttribute('src', '../img/sport-icone2.png');
     icone3.setAttribute('src', '../img/sport-icone3.svg');
     icone4.setAttribute('src', '../img/sport-icone4.png');
+   
 
     if(newsBtn.classList == 'active' || eventsBtn.classList == 'active'){
         newsBtn.classList.remove('active');//REMOVE CLASSE
@@ -38,6 +39,7 @@ newsBtn.addEventListener('click', () => {
     icone2.setAttribute('src', '../img/news-icone2.svg');
     icone3.setAttribute('src', '../img/news-icone3.png');
     icone4.setAttribute('src', '../img/news-icone4.svg');
+   
 
     if(sportsBtn.classList == 'active' || eventsBtn.classList == 'active'){
         sportsBtn.classList.remove('active');
@@ -74,4 +76,23 @@ containerBtn.addEventListener('click', () =>{
         containerBtn.innerHTML = `Show Add-ons<i class="bi bi-chevron-down"></i>`;
     } 
 })
+
+
+const myObserver = new IntersectionObserver ((entries) =>{
+    entries.forEach((entry) =>{
+        if(entry.isIntersecting === true){
+            entry.target.classList.add('show')
+        } else{
+            entry.target.classList.remove('show')
+        }
+    })
+});
+
+const elements = document.querySelectorAll('.escondido')
+
+elements.forEach((element) => myObserver.observe(element))
+
+
+
+
 

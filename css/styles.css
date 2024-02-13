@@ -381,6 +381,21 @@ header span{
     color: white;
 }
 
+.escondido{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateY(50%);
+}
+
+.show{
+    opacity:1;
+    filter: blur(0);
+    transition: all 1s;
+    transform: translateY(0%);
+}
+
+
 .diversos__container ul{
     list-style: none;
     display: flex;
