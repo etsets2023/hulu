@@ -690,6 +690,13 @@ footer ul li a{
         /* border: 1px solid white; */
         width: 45%; 
     }
+    .planos__container2{
+         width: 90%;   
+      }
+
+      footer div{
+        width: 16%;
+      }
     
 }
 
@@ -699,6 +706,37 @@ footer ul li a{
         width: 50%;
         /* margin-left: 15%; */
         /* margin-top: 12%;    */
+    }   
+}
+
+@media (max-width: 872px){
+    .diversos__container{
+        /* border: 1px solid white; */
+        width: 55%;
+        margin-left: 10%; 
+        /* margin-top: 12%;    */
     }
-    
+
+    .planos__container2{
+        width: 100%; 
+     }
+
+     .planos__container22{
+        justify-content: center; 
+      }     
+}
+
+@media (max-width: 761px){
+    .card {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .diversos__container{
+        /* border: 1px solid white; */
+        width: 80%;
+        margin-left:5%;
+        margin-top: 12%;
+        color: white;
+    }
 }
